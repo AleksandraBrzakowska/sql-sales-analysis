@@ -7,7 +7,7 @@ SELECT COUNT(*) as 'Customers'
 FROM customers;
 
 -- average age
-SELECT AVG(age) 'Average_age' 
+SELECT AVG(age) as 'Average_age' 
 FROM customers;
 
 -- customers from North region
